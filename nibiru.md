@@ -45,13 +45,6 @@ git checkout v0.19.2
 make build
 ```
 
-- **nibid'ün başarılı yüklendiğinin kontrolü**
-
-```
-nibid version
-```
-
-
 - **Cosmovisor**
 
 ```
@@ -62,6 +55,12 @@ rm -rf build
 ```
 sudo ln -s $HOME/.nibid/cosmovisor/genesis $HOME/.nibid/cosmovisor/current
 sudo ln -s $HOME/.nibid/cosmovisor/current/bin/nibid /usr/local/bin/nibid
+```
+
+- **nibid'ün başarılı yüklendiğinin kontrolü**
+
+```
+nibid version
 ```
 
 - **Cosmovisor Kurulumu**
