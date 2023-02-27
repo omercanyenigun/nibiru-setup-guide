@@ -1,3 +1,4 @@
-**Nibiru-Node-Guide**
+# Nibiru-Setup-Guide
 
-![alt text](https://i.hizliresim.com/bpeitz5.jpeg)
+![alt text](https://i.hizliresim.com/ezwm5e4.jpeg)
+
