@@ -80,5 +80,9 @@ nibid config keyring-backend test
 nibid init <moniker-isminiz> --chain-id nibiru-itn-1
 ```
 
+- **Genesis ve addrbook'u indirme**
+
+
+
 
 
