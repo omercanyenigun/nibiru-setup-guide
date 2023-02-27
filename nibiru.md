@@ -74,7 +74,7 @@ nibid config keyring-backend test
 
 - **Node Kurulumu**
 
-# ''<moniker-isminiz>'' olan yeri değiştirin**
+#moniker-isminiz olan yeri değiştirin**
   
 ```
 nibid init <moniker-isminiz> --chain-id nibiru-itn-1
