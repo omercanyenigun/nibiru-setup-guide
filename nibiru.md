@@ -1,4 +1,3 @@
 # Nibiru-Setup-Guide
 
-![alt text](https://i.hizliresim.com/ezwm5e4.png)
-
+![alt text](https://i.hizliresim.com/ary8n1w.png)
