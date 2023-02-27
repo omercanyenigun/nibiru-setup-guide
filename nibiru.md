@@ -82,7 +82,9 @@ nibid init <moniker-isminiz> --chain-id nibiru-itn-1
 
 - **Genesis ve addrbook'u indirme**
 
+```
 wget https://raw.githubusercontent.com/omercanyenigun/nibiru-setup-guide/main/genesis.json -O $HOME/.nibid/config/genesis.json
+```
 
 - **Seeds ve Peers'i Yapılandırma**
 
