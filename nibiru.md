@@ -183,14 +183,33 @@ nibid keys add wallet --recover
 
 - **Nibiru Discord Kanalından Faucet**
 
- - **Discord** - **https://discord.gg/nibiru**
+- **Discord** - **https://discord.gg/nibiru**
 
 $request <cüzdan-adresiniz>
 
 ![alt text](https://i.hizliresim.com/r6ipu40.png)
 
 
+**Validatör Kurulumu**
 
+```
+nibid tx staking create-validator \
+--amount=1000000unibi \
+--pubkey=$(nibid tendermint show-validator) \
+--moniker="moniker-adınız" \
+--chain-id=nibiru-itn-1 \
+--commission-rate=0.10 \
+--commission-max-rate=0.20 \
+--commission-max-change-rate=0.01 \
+--min-self-delegation=1 \
+--from=wallet \
+--gas-prices=0.1unibi \
+--gas-adjustment=1.5 \
+--gas=auto \
+-y
+```
+
+![alt text](https://i.hizliresim.com/r1ah10q.png)
 
 
 
