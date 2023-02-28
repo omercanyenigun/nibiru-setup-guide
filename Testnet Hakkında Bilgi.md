@@ -24,7 +24,7 @@ Kayıt Linki:
 
 Aşağıdaki görevler, NIT'deki ödül toplamınıza yönelik puanlar verir. Her görevi tamamlamak gerekli değildir ve hepsinin değeri aynı değildir. Aşağıdaki bölümde nasıl başlayacağınıza ilişkin kılavuzlar da ekledik.
 
-**Delegatörler için (+100)**
+# Delegatörler için (+100)
 
 Bir validatöre en az 1 NIBI stake edin
 Ödül Talebi
@@ -33,12 +33,12 @@ Bir oraclea stake edin
 Tokenlerinizi geri alın (unstake)
 
 
-**Validatör Operatörler için (+75)**
+# Validatör Operatörler için (+75) 
 Validatör olun (active veya inactive). Tam bir node senkronize etmeniz ve bir işlem göndermeniz yeterlidir. (create-validator)
 Eğer hiç slashing yemezseniz. [Bonus +50] 
 
 
-**Oracle için (+200)**
+# Oracle için (+200)
 
 Blok zincirinin dışındaki fiyat verileri için Nibiru, döviz kurlarını oylamak için validatör setindeki katılımcılarına güvenir.
 
@@ -46,12 +46,12 @@ En az 10000 oy verin (VotePeriods)
 Bunlar için beyaz listedeki tüm çiftler için fiyat sağlayın (VotePeriods)
 Not: Oracle, çekimser kalmak yerine fiyatları sağlayan bir validatördür. Bir Oracle'a yetki vermek, bir eylemin tamamlanması için sayılır.
 
-**Topluluk (+77 puan)**
+# Topluluk (+77 puan)
 
 Henüz yapmadıysanız Gleam'de açıklanan görevleri tamamlayın.
 
 
-**Ödül Uygunluğu**
+# Ödül Uygunluğu
 
 Nibiru'nun teşvik ettiği test ağlarından herhangi birine katılmak için, katılımcıların önce tüm uygunluk gereksinimlerini karşılaması gerekir. Üç adım vardır:
 
@@ -59,16 +59,7 @@ Nibiru'nun teşvik ettiği test ağlarından herhangi birine katılmak için, ka
 - **NIT yol haritasının herhangi bir aşamasında özetlenen görevleri tamamlayın**
 - **Claim için uygunluğunu (KYC) geçmek**
 
-
-**Yasak Bölgeler**
-
-ABD ve diğer kısıtlı bölgelerdeki düzenleyici hususlar nedeniyle, bu yargı bölgelerinde ikamet edenler belirteç tabanlı ödüller talep edemezler. Bu kullanıcılar yine de her bir NIT'e katılabilir.
-
-ABD'de bulunan başarılı katılımcılar için token olmayan diğer ödül biçimlerini verme olasılığını aktif olarak araştırıyoruz, ancak bu tür ödüllerin bu yetki alanlarında ikamet eden katılımcılara sunulacağının garantisi yok.
-
-Şartlar ve koşullarımızda daha fazla ayrıntı verilmektedir.
-
-**Claim**
+# Claim
 
 Teşvik alabilmek için, yaptırım taramasını geçmek üzere adınız, ikamet bilgileriniz, doğum tarihiniz vb. gibi belirli tanımlayıcı bilgileri sağlamanız gerekir.
 
