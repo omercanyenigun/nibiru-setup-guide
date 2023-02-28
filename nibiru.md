@@ -33,6 +33,7 @@ source ~/.bash_profile
 ```
 go version
 ```
+![alt text](https://i.hizliresim.com/chw0332.png)
 
 - **Binary Yüklemesi**
 
