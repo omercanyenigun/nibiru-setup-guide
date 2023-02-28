@@ -168,11 +168,26 @@ nibid status 2>&1 | jq .SyncInfo
 ```
 ![alt text](https://i.hizliresim.com/s18cuyk.png)
 
+- **Cüzdan Oluşturma**
 
+```
+nibid keys add wallet
+```
 
+- **Önceki cüzdanı import etme (gleam'a gönderdiğiniz cüzdanı kullanın)**
 
+```
+nibid keys add wallet --recover
+```
+![alt text](https://i.hizliresim.com/8b40g1h.png)
 
+- **Nibiru Discord Kanalından Faucet**
 
+ - **Discord** - **https://discord.gg/nibiru**
+
+$request <cüzdan-adresiniz>
+
+![alt text](https://i.hizliresim.com/r6ipu40.png)
 
 
 
