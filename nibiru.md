@@ -63,6 +63,7 @@ sudo ln -s $HOME/.nibid/cosmovisor/current/bin/nibid /usr/local/bin/nibid
 ```
 nibid version
 ```
+![alt text](https://i.hizliresim.com/d688ybz.png)
 
 - **Cosmovisor Kurulumu**
 
@@ -85,7 +86,7 @@ nibid config keyring-backend test
 nibid init <moniker-isminiz> --chain-id nibiru-itn-1
 ```
 
-- **Genesis ve addrbook'u indirme**
+- **Genesis**
 
 ```
 wget https://raw.githubusercontent.com/omercanyenigun/nibiru-setup-guide/main/genesis.json -O $HOME/.nibid/config/genesis.json
@@ -145,10 +146,27 @@ sudo systemctl enable nibid
 sudo systemctl restart nibid
 sudo journalctl -fu nibid -o cat
 ```
+![alt text](https://i.hizliresim.com/4590gqq.png)
 
 
+- **İsteğe bağlı snap kullanabilirsiniz**
 
+```
+sudo systemctl stop nibid
+cp $HOME/.nibid/data/priv_validator_state.json $HOME/.nibid/priv_validator_state.json.backup 
+nibid tendermint unsafe-reset-all --home $HOME/.nibid --keep-addr-book 
+curl https://snapshots2-testnet.nodejumper.io/nibiru-testnet/nibiru-itn-1_2023-02-28.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.nibid
+mv $HOME/.nibid/priv_validator_state.json.backup $HOME/.nibid/data/priv_validator_state.json 
+sudo systemctl start nibid
+sudo journalctl -u nibid -f --no-hostname -o cat
+```
 
+- **Node Status (çıktı false ise nodeunuz senkronize olmuştur.)**
+
+```
+nibid status 2>&1 | jq .SyncInfo
+```
+![alt text](https://i.hizliresim.com/s18cuyk.png)
 
 
 
