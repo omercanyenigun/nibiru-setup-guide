@@ -211,5 +211,88 @@ nibid tx staking create-validator \
 
 ![alt text](https://i.hizliresim.com/r1ah10q.png)
 
+# Pricefeeder
+
+```
+curl -s https://get.nibiru.fi/pricefeeder! | bash
+```
+
+```
+export CHAIN_ID="nibiru-itn-1"
+export GRPC_ENDPOINT="localhost:9090"
+export WEBSOCKET_ENDPOINT="ws://localhost:26657/websocket"
+export EXCHANGE_SYMBOLS_MAP='{ "bitfinex": { "ubtc:uusd": "tBTCUSD", "ueth:uusd": "tETHUSD", "uusdt:uusd": "tUSTUSD" }, "binance": { "ubtc:uusd": "BTCUSD", "ueth:uusd": "ETHUSD", "uusdt:uusd": "USDTUSD", "uusdc:uusd": "USDCUSD", "uatom:uusd": "ATOMUSD", "ubnb:uusd": "BNBUSD", "uavax:uusd": "AVAXUSD", "usol:uusd": "SOLUSD", "uada:uusd": "ADAUSD", "ubtc:unusd": "BTCUSD", "ueth:unusd": "ETHUSD", "uusdt:unusd": "USDTUSD", "uusdc:unusd": "USDCUSD", "uatom:unusd": "ATOMUSD", "ubnb:unusd": "BNBUSD", "uavax:unusd": "AVAXUSD", "usol:unusd": "SOLUSD", "uada:unusd": "ADAUSD" } }'
+export FEEDER_MNEMONIC="mnemonic(validatör oluştururken kullandığınız)"
+export VALIDATOR_ADDRESS="nibivaloper-adresiniz"
+```
+
+**Servis Dosyası Oluşturma**
+
+```
+sudo tee /etc/systemd/system/pricefeeder.service<<EOF
+[Unit]
+Description=Nibiru Pricefeeder
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+Type=exec
+User=$USER
+ExecStart=/usr/local/bin/pricefeeder
+Restart=on-failure
+ExecReload=/bin/kill -HUP $MAINPID
+KillSignal=SIGTERM
+PermissionsStartOnly=true
+LimitNOFILE=65535
+Environment=CHAIN_ID='$CHAIN_ID'
+Environment=GRPC_ENDPOINT='$GRPC_ENDPOINT'
+Environment=WEBSOCKET_ENDPOINT='$WEBSOCKET_ENDPOINT'
+Environment=EXCHANGE_SYMBOLS_MAP='$EXCHANGE_SYMBOLS_MAP'
+Environment=FEEDER_MNEMONIC='$FEEDER_MNEMONIC'
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+![alt text](https://i.hizliresim.com/immai4k.png)
+
+```
+sudo systemctl daemon-reload && \
+sudo systemctl enable pricefeeder && \
+sudo systemctl start pricefeeder
+```
+
+
+- **Log Kontrol**
+
+```
+journalctl -fu pricefeeder
+```
+#Loglardaki valoper adresinin sizin validatörünüzün valoper adresi olduğuna dikkat edin.
+
+![alt text](https://i.hizliresim.com/dje36x7.png)
+
+
+#Eğer active sette değilseniz oylamalar fail olarak geçecektir.
+
+![alt text](https://i.hizliresim.com/beoplog.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
