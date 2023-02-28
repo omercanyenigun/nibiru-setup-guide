@@ -1,8 +1,12 @@
 # Nibiru Teşvikli Testnet #1
 
+![alt text](https://i.hizliresim.com/tvrtze6.png)
+
 - **Başlangıç: 27 Şubat 2023**
 - **Bitiş: Mart ayında NIT #2 başladığında**
-Nibiru Ambassador Programı ile aynı zamana denk gelir - **https://www.notion.so/375d3c623c2b46ffb6e3b8a083002358**
+Nibiru Ambassador Programı ile aynı zamana denk gelir
+- **https://www.notion.so/375d3c623c2b46ffb6e3b8a083002358**
+
 NIT #1'in ana odak noktası , Nibiru'nun Oracle Modülünü test etmektir. Doğrulayıcı nodelarının kripto varlık çiftleri arasındaki döviz kurlarına oy vererek oracle gibi davrandığı süreci yönetir. Bu süreç için oylama gücü, doğrudan hisse ispatındaki oylama gücüyle eşleştiğinden, teşvikli test ağının bu aşamasına yönelik görevlerin çoğu, belirleme ile ilgilidir.
 
 - **Kayıt**
