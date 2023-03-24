@@ -149,7 +149,7 @@ sudo journalctl -fu nibid -o cat
 ![alt text](https://i.hizliresim.com/4590gqq.png)
 
 
-- **İsteğe bağlı snap kullanabilirsiniz (857,996)**
+- **İsteğe bağlı snap kullanabilirsiniz (1,245,371)**
 
 ```
 sudo systemctl stop nibid
@@ -157,7 +157,7 @@ sudo systemctl stop nibid
 cp $HOME/.nibid/data/priv_validator_state.json $HOME/.nibid/priv_validator_state.json.backup 
 
 nibid tendermint unsafe-reset-all --home $HOME/.nibid --keep-addr-book 
-curl https://snapshots2-testnet.nodejumper.io/nibiru-testnet/nibiru-itn-1_2023-03-12.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.nibid
+curl https://snapshots2-testnet.nodejumper.io/nibiru-testnet/nibiru-itn-1_2023-03-24.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.nibid
 
 mv $HOME/.nibid/priv_validator_state.json.backup $HOME/.nibid/data/priv_validator_state.json 
 
