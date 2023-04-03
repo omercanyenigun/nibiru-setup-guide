@@ -149,7 +149,7 @@ sudo journalctl -fu nibid -o cat
 ![alt text](https://i.hizliresim.com/4590gqq.png)
 
 
-- **İsteğe bağlı snap kullanabilirsiniz (1,515,331 block)**
+- **İsteğe bağlı snap kullanabilirsiniz (1,539,893 block)**
 
 ```
 sudo systemctl stop nibid
