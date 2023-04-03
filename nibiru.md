@@ -189,9 +189,9 @@ nibid keys add wallet --recover
 
 - **Discord** - **https://discord.gg/nibiru**
 
-$request <cüzdan-adresiniz>
+- **$request <cüzdan-adresiniz>
 
-![alt text](https://i.hizliresim.com/r6ipu40.jpeg)
+![alt text](https://i.hizliresim.com/r6ipu40.png)
 
 
 **Validatör Kurulumu**
