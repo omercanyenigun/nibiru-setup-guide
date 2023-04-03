@@ -191,7 +191,7 @@ nibid keys add wallet --recover
 
 $request <cüzdan-adresiniz>
 
-![alt text](https://i.hizliresim.com/r6ipu40.png)
+![alt text](https://i.hizliresim.com/r6ipu40.jpeg)
 
 
 **Validatör Kurulumu**
