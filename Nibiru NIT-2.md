@@ -56,7 +56,8 @@ wget https://github.com/NibiruChain/cw-nibiru/raw/main/artifacts-cw-plus/cw1_whi
 
 Eğer sunucuda node kurulu değilse cüzdanınızı import edin. Kurulu cüzdanda yapıyorsanız bi alttaki kodlardan devam edin. (nibid keys add wallet --recover kodunu atlayın)
 
-![alt text](https://i.hizliresim.com/2d7kq32.png)
+![alt text](https://i.hizliresim.com/m4x5xg7.png)
+
 
 ```
 nibid keys add wallet --recover
