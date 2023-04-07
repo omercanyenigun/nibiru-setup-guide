@@ -12,7 +12,7 @@ Teşvik edilen test ağının bu aşaması iki şeye odaklanıyor: (1) Nibiru Zi
 # Yönetişim (Governance) Görevleri (+300)
 
 - **En az 1 yönetişim teklifine katılın.**
-- **Dört veya daha fazla yönetişim teklifine katılın.
+- **4 veya daha fazla yönetişim teklifine katılın.**
 
 Oy verme süresi şu anda 4 gün olarak belirlendi. Ağ performansı düşene kadar validatör setini daha da artırmak için teklifler sunacağız.
 
