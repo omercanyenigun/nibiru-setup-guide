@@ -7,7 +7,7 @@
 - **NIT-2 Görev ve Puanlama hakkında bilgi: https://github.com/omercanyenigun/nibiru-setup-guide/blob/main/NIT-2%20G%C3%B6revleri.md**
 
 
-# Yönetişim (Governance) Görevleri
+# Yönetişim (Governance) Görevi
 
 Proposallara oylama yapmak için explorer üzerinden (https://nibiru.explorers.guru/proposals) active lan proposalların ID numaralarını girerek oy verebilirsiniz. Kodlarda değiştirilecek olan yerler ID numaraları ve cüzdan isimleri. İsterseniz Keplr wallet uygulamasını (https://explorer.kjnodes.com/nibiru-testnet/gov) sitesine bağlayarak oy verebilirsiniz. 
 
@@ -31,7 +31,7 @@ nibid tx gov vote <IDnumarası> no --from <cüzdanismi> --chain-id nibiru-itn-1 
 nibid tx gov vote <IDnumarası> abstain --from <cüzdanismi> --chain-id nibiru-itn-1 --gas-prices 0.1unibi --gas-adjustment 1.5 --gas auto -y 
 ```
 
-# Akıllı Sözleşme (Smart Contract) Görevleri
+# Akıllı Sözleşme (Smart Contract) Görevi
 
 Buradaki işlemleri nibiru node kurulu olan sunucuda yapabileceğiniz gibi kurulu olmayan sunucuda da yapabilirsiniz. Eğer sunucuda nibiru node kurulu değilse cüzdanınızı (gleam sitesine girdiğiniz cüzdan) import edin.
 
