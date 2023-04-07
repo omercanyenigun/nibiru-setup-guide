@@ -11,7 +11,7 @@
 
 Proposallara oylama yapmak için explorer üzerinden (https://nibiru.explorers.guru/proposals) active lan proposalların ID numaralarını girerek oy verebilirsiniz. Kodlarda değiştirilecek olan yerler ID numaraları ve cüzdan isimleri. İsterseniz Keplr wallet uygulamasını (https://explorer.kjnodes.com/nibiru-testnet/gov) sitesine bağlayarak oy verebilirsiniz. 
 
-![alt text](https://i.hizliresim.com/sskpd0l.jpeg)
+![alt text](https://i.hizliresim.com/sskpd0l.png)
 
 - **Evet oyu**
 
@@ -47,7 +47,7 @@ nibid config keyring-backend file
 
 Eğer sunucuda node kurulu değilse cüzdanınızı import edin. Kurulu cüzdanda yapıyorsanız bi alttaki kodlardan devam edin.
 
-![alt text](https://i.hizliresim.com/2d7kq32.jpeg)
+![alt text](https://i.hizliresim.com/2d7kq32.png)
 
 ```
 nibid keys add wallet --recover
@@ -61,11 +61,11 @@ cd $HOME/nibidcontract
 nibid tx wasm store $HOME/nibidcontract/cw1_whitelist.wasm --from <cüzdanisminiz> --gas=2000000 --fees=50000unibi
 ```
 
-![alt text](https://i.hizliresim.com/kjy5wie.jpeg)
+![alt text](https://i.hizliresim.com/kjy5wie.png)
 
 y'ye basıp devam edin çıkan çıktıda txhash ve code_id'yi bir yere kaydedin.
 
-![alt text](https://i.hizliresim.com/gridqym.jpeg)
+![alt text](https://i.hizliresim.com/gridqym.png)
 
 
 
