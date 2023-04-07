@@ -44,6 +44,15 @@ nibid config chain-id nibiru-itn-1
 nibid config broadcast-mode block
 nibid config keyring-backend file
 ```
+```
+mkdir nibidcontract
+```
+```
+cd nibidcontract
+```
+```
+wget https://github.com/NibiruChain/cw-nibiru/raw/main/artifacts-cw-plus/cw1_whitelist.wasm
+```
 
 Eğer sunucuda node kurulu değilse cüzdanınızı import edin. Kurulu cüzdanda yapıyorsanız bi alttaki kodlardan devam edin. (nibid keys add wallet --recover kodunu atlayın)
 
