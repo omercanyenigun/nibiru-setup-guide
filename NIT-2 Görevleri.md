@@ -17,7 +17,7 @@ Teşvik edilen test ağının bu aşaması iki şeye odaklanıyor: (1) Nibiru Zi
 Oy verme süresi şu anda 4 gün olarak belirlendi. Ağ performansı düşene kadar validatör setini daha da artırmak için teklifler sunacağız.
 
 
-# Akıllı Sözleşme (Smart Contract) Görevleri (+300)**
+# Akıllı Sözleşme (Smart Contract) Görevleri (+300)
 
 - **Nibiru'da bir akıllı sözleşme devreye alın.**
 - **Nibiru'da bir akıllı sözleşme oluşturun.**
