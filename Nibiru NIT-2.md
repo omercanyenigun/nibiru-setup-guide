@@ -45,7 +45,7 @@ nibid config broadcast-mode block
 nibid config keyring-backend file
 ```
 
-Eğer sunucuda node kurulu değilse cüzdanınızı import edin. Kurulu cüzdanda yapıyorsanız bi alttaki kodlardan devam edin.
+Eğer sunucuda node kurulu değilse cüzdanınızı import edin. Kurulu cüzdanda yapıyorsanız bi alttaki kodlardan devam edin. (nibid keys add wallet --recover kodunu atlayın)
 
 ![alt text](https://i.hizliresim.com/2d7kq32.png)
 
