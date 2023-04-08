@@ -187,7 +187,7 @@ nibid keys add wallet --recover
 
 - **Nibiru Discord Kanalından Faucet**
 
-- **Discord** - **https://discord.gg/nibiru**
+- **Discord** - **https://discord.gg/nibiruchain**
 
 - $request <cüzdan-adresiniz>
 
