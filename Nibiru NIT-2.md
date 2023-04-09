@@ -56,7 +56,8 @@ Eğer sunucuda glaam'e verdiğiniz cüzdan yoksa cüzdanınızı import edin. Ku
 nibid keys add wallet --recover
 ```
 
-![alt text](https://i.hizliresim.com/m4x5xg7.png)
+![alt text](https://i.hizliresim.com/5yxaql6.png)
+
 
 
 Koddaki cüzdanadınız yerini değiştirin.
