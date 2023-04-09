@@ -88,6 +88,14 @@ nibid query wasm code-info $id
 ![alt text](https://i.hizliresim.com/tu3xg5s.png)
 
 
+Koddaki isminiz, sembolünüz, cüzdanadresiniz, cüzdanadınız ve labelismi olan yerleri değiştirin.
+
+```
+INIT='{"name":"isminiz","symbol":"sembolünüz","decimals":6,"initial_balances":[{"address":"cüzdanadresiniz","amount":"5000000"}],"mint":{"minter":"cüzdanadresiniz"},"marketing":{}}'
+nibid tx wasm instantiate $id $INIT --from cüzdanadınız --label "labelismi" --gas-adjustment 1.2 --gas auto --fees 80000unibi --no-admin -y
+```
+
+![alt text](https://i.hizliresim.com/p85rqnw.png)
 
 # ExecuteContract İşlemi
 
