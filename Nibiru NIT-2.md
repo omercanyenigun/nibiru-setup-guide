@@ -85,7 +85,8 @@ id=code_idniz
 nibid query wasm code-info $id
 ```
 
-![alt text](https://i.hizliresim.com/cr3rq2t.png)
+![alt text](https://i.hizliresim.com/tu3xg5s.png)
+
 
 
 # ExecuteContract İşlemi
